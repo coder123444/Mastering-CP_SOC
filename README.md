@@ -10,7 +10,7 @@
 
 This repository documents my journey through the **Mastering CP** project under SOS 2026. It contains C++ solutions to problems from **LeetCode**, **CSES**, and **Codeforces**, organized week-by-week alongside the corresponding theory from the CP Handbook.
 
-All solutions are written in **C++17** and focus on clarity, correctness, and time/space efficiency.
+All solutions are written in **C++** and focus on clarity, correctness, and time/space efficiency.
 
 ---
 
