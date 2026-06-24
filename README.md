@@ -1,6 +1,6 @@
 # 🏆 Mastering Competitive Programming
 
-> **IIT Bombay — Summer of Science (SOS) 2026**
+> **IIT Bombay — Seasons of Code (SOC) 2026**
 > **Mentor:**  Adit and Vijay
 > **Reference Book:** [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) by Antti Laaksonen
 
@@ -233,4 +233,4 @@ for (int i = 2; i * i <= N; i++)
 ## 👤 Author
 
 **Yatharth**
-IIT Bombay | SOS 2026 | Mastering CP Project
+IIT Bombay | SOC 2026 | Mastering CP Project
