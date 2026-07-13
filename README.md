@@ -1,10 +1,9 @@
 # 🏆 Mastering Competitive Programming
 
-<<<<<<< HEAD
+ 
 > **IIT Bombay  Seasons of Code (SOC) 2026**
-=======
-> **IIT Bombay — Seasons of Code (SOC) 2026**
->>>>>>> a4bf65bcc4df7c11299044ed6bf270121eaee067
+ 
+ 
 > **Mentor:**  Adit and Vijay
 > **Reference Book:** [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) by Antti Laaksonen
 
@@ -12,7 +11,7 @@
 
 ## 📚 About This Repository
 
-This repository documents my journey through the **Mastering CP** project under SOS 2026. It contains C++ solutions to problems from **LeetCode**, **CSES**, and **Codeforces**, organized week-by-week alongside the corresponding theory from the CP Handbook.
+This repository documents my journey through the **Mastering CP** project under SOS 2026. It contains C++ solutions to problems from **LeetCode**, **CSES**, and **Codeforces**, organized week by week alongside the corresponding theory from the CP Handbook.
 
 All solutions are written in **C++** and focus on clarity, correctness, and time/space efficiency.
 
@@ -47,7 +46,7 @@ Mastering-CP/
 
 ## 📅 Week by Week Progress
 
-### 📘 Week 1 — Fundamentals
+### 📘 Week 1 : Fundamentals
 **CP Handbook Chapters:** 1 (Intro), 2 (Time Complexity), 3 (Sorting & Binary Search), 4 (Data Structures)
 
 **Key Concepts:**
@@ -78,7 +77,7 @@ Mastering-CP/
 
 ---
 
-### 📗 Week 2 — Greedy Algorithms & Bit Manipulation
+### 📗 Week 2 : Greedy Algorithms & Bit Manipulation
 **CP Handbook Chapters:** 6 (Greedy), 10 (Bit Manipulation)
 
 **Key Concepts:**
@@ -107,7 +106,7 @@ Mastering-CP/
 
 ---
 
-### 📙 Week 3 — Number Theory & Combinatorics
+### 📙 Week 3 : Number Theory & Combinatorics
 **CP Handbook Chapters:** 21 (Number Theory), 22 (Combinatorics), 24 (Probability)
 
 **Key Concepts:**
@@ -136,7 +135,7 @@ Mastering-CP/
 
 ---
 
-### 📕 Week 4 — Dynamic Programming
+### 📕 Week 4 : Dynamic Programming
 **CP Handbook Chapter:** 7 (Dynamic Programming)
 
 **Key Concepts:**
@@ -166,7 +165,7 @@ Mastering-CP/
 
 ---
 
-### 📔 Week 5 — Graphs & Trees
+### 📔 Week 5 : Graphs & Trees
 **CP Handbook Chapters:** 11–15 (Basics of Graphs, Graph Traversal, Shortest Paths, Tree Algorithms, Spanning Trees), skimmed 16–19
 
 **Key Concepts:**
