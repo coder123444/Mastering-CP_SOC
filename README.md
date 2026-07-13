@@ -1,6 +1,10 @@
 # 🏆 Mastering Competitive Programming
 
+<<<<<<< HEAD
 > **IIT Bombay  Seasons of Code (SOC) 2026**
+=======
+> **IIT Bombay — Seasons of Code (SOC) 2026**
+>>>>>>> a4bf65bcc4df7c11299044ed6bf270121eaee067
 > **Mentor:**  Adit and Vijay
 > **Reference Book:** [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) by Antti Laaksonen
 
