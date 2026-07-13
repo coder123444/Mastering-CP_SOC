@@ -1,6 +1,6 @@
 # 🏆 Mastering Competitive Programming
 
-> **IIT Bombay — Summer of Science (SOS) 2026**
+> **IIT Bombay  Seasons of Code (SOC) 2026**
 > **Mentor:**  Adit and Vijay
 > **Reference Book:** [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) by Antti Laaksonen
 
@@ -10,7 +10,7 @@
 
 This repository documents my journey through the **Mastering CP** project under SOS 2026. It contains C++ solutions to problems from **LeetCode**, **CSES**, and **Codeforces**, organized week-by-week alongside the corresponding theory from the CP Handbook.
 
-All solutions are written in **C++17** and focus on clarity, correctness, and time/space efficiency.
+All solutions are written in **C++** and focus on clarity, correctness, and time/space efficiency.
 
 ---
 
@@ -31,14 +31,17 @@ Mastering-CP/
 │   ├── Sieve/
 │   ├── Combinatorics/
 │   └── NumberTheory/
-└── Week4/               # Dynamic Programming
-    ├── CSES-DP/
-    └── Codeforces-DP/
+├── Week4/               # Dynamic Programming
+│   ├── CSES-DP/
+│   └── Codeforces-DP/
+└── Week5/               # Graphs & Trees
+    ├── CSES-Graphs/
+    └── CSES-Trees/
 ```
 
 ---
 
-## 📅 Week-by-Week Progress
+## 📅 Week by Week Progress
 
 ### 📘 Week 1 — Fundamentals
 **CP Handbook Chapters:** 1 (Intro), 2 (Time Complexity), 3 (Sorting & Binary Search), 4 (Data Structures)
@@ -76,7 +79,7 @@ Mastering-CP/
 
 **Key Concepts:**
 - Greedy strategy: prove exchange argument or use invariants
-- Interval scheduling and sweep-line
+- Interval scheduling and sweep line
 - Bitwise operators: `&`, `|`, `^`, `~`, `<<`, `>>`
 - Common bit tricks: `x & (x-1)`, `__builtin_popcount`, XOR properties
 
@@ -136,7 +139,7 @@ Mastering-CP/
 - State definition and transitions
 - Memoization (top-down) vs Tabulation (bottom-up)
 - Classical DP patterns: knapsack, LCS, LIS, edit distance
-- DP on grids, intervals, and bitmasks
+- DP on grids, intervals and bitmasks
 - Counting problems modulo a prime
 
 | Platform | Problem | Key Technique |
@@ -156,6 +159,40 @@ Mastering-CP/
 | CF | [2071D1 - Infinite Sequence (Easy)](https://codeforces.com/problemset/problem/2071/D1) | Simulation + DP |
 | CF | [2121E - Sponsor of Your Problems](https://codeforces.com/problemset/problem/2121/E) | Greedy DP |
 | CF | [2114F - Small Operations](https://codeforces.com/problemset/problem/2114/F) | DP with states |
+
+---
+
+### 📔 Week 5 — Graphs & Trees
+**CP Handbook Chapters:** 11–15 (Basics of Graphs, Graph Traversal, Shortest Paths, Tree Algorithms, Spanning Trees), skimmed 16–19
+
+**Key Concepts:**
+- Graph representations: adjacency list/matrix
+- BFS / DFS traversal, connected components, flood fill
+- Bipartiteness (2 coloring), cycle detection (directed & undirected)
+- Dijkstra's algorithm, Bellman Ford, Floyd Warshall
+- Topological sort (Kahn's algorithm)
+- Tree DP: subtree sizes, max matching, rerooting technique
+
+| Platform | Problem | Key Technique |
+|----------|---------|---------------|
+| CSES | [Counting Rooms](https://cses.fi/problemset/task/1192) | Grid flood fill (BFS) |
+| CSES | [Labyrinth](https://cses.fi/problemset/task/1193) | BFS + path reconstruction |
+| CSES | [Building Roads](https://cses.fi/problemset/task/1666) | DSU — connect components |
+| CSES | [Message Route](https://cses.fi/problemset/task/1667) | BFS shortest path + reconstruction |
+| CSES | [Building Teams](https://cses.fi/problemset/task/1668) | Bipartite 2-coloring (BFS) |
+| CSES | [Round Trip](https://cses.fi/problemset/task/1669) | Cycle detection, undirected graph |
+| CSES | [Monsters](https://cses.fi/problemset/task/1194) | Multi-source BFS + escape BFS |
+| CSES | [Shortest Routes I](https://cses.fi/problemset/task/1671) | Dijkstra |
+| CSES | [Shortest Routes II](https://cses.fi/problemset/task/1672) | Floyd-Warshall, all-pairs |
+| CSES | [High Score](https://cses.fi/problemset/task/1673) | Bellman-Ford, longest path + positive cycle |
+| CSES | [Flight Discount](https://cses.fi/problemset/task/1195) | Dijkstra, expanded state space |
+| CSES | [Cycle Finding](https://cses.fi/problemset/task/1197) | Bellman-Ford, negative cycle detection |
+| CSES | [Flight Routes](https://cses.fi/problemset/task/1196) | k-shortest-paths Dijkstra |
+| CSES | [Round Trip II](https://cses.fi/problemset/task/1678) | Cycle detection, directed graph |
+| CSES | [Course Schedule](https://cses.fi/problemset/task/1679) | Topological sort (Kahn's) |
+| CSES | [Subordinates](https://cses.fi/problemset/task/1674) | Tree DP — subtree size |
+| CSES | [Tree Matching](https://cses.fi/problemset/task/1130) | Tree DP — max matching |
+| CSES | [Distance in Tree](https://cses.fi/problemset/task/1131) | Tree DP — rerooting |
 
 ---
 
@@ -233,4 +270,4 @@ for (int i = 2; i * i <= N; i++)
 ## 👤 Author
 
 **Yatharth**
-IIT Bombay | SOS 2026 | Mastering CP Project
+IIT Bombay | SOC 2026 | Mastering CP Project
